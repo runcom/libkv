@@ -16,6 +16,8 @@ const (
 	ETCD Backend = "etcd"
 	// ZK backend
 	ZK Backend = "zk"
+	// REDIS backend
+	REDIS Backend = "redis"
 )
 
 var (

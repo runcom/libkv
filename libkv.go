@@ -77,6 +77,7 @@ var (
 		store.CONSUL: consul.New,
 		store.ETCD:   etcd.New,
 		store.ZK:     zookeeper.New,
+		store.REDIS:  redis.InizializeRedis,
 	}
 )
 
